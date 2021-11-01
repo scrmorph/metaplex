@@ -16,7 +16,7 @@ import { ConnectButton } from '@oyster/common';
 const getDefaultLinkActions = (connected: boolean) => {
   return [
     <Link to={`/`}>
-      <img src={'/Louis.png'} style={{ height: 60 }} />
+      <img src={'/coin.png'} style={{ height: 60 }} />
     </Link>,
     <Link to={`/`} key={'explore'}>
       <Button className="app-btn">Explore</Button>
