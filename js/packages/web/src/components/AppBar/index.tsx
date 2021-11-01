@@ -50,7 +50,7 @@ const MetaplexMenu = () => {
     return (
       <>
         <Modal
-          title={<img src={'/metaplex-logo.svg'} />}
+          title={<img src={'/off_my_head_logo.png'} />}
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
@@ -109,7 +109,7 @@ const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/metaplex-logo.svg'} />
+      <img src={'/off_my_head_logo.png'} style={{ height: 80 }} />
     </Link>
   );
 };
@@ -124,9 +124,12 @@ export const AppBar = () => {
       </div>
       <div id="desktop-navbar">
         <div className="app-left">
-          <LogoLink />
           &nbsp;&nbsp;&nbsp;
           <MetaplexMenu />
+          &nbsp;&nbsp;&nbsp;
+        </div>
+        <div className="app-center">
+          <LogoLink />
         </div>
         <div className="app-right">
           {!connected && (
