@@ -141,7 +141,7 @@ export const AuctionListView = () => {
   return (
     <>
       <Banner
-        src={'/halloween_bcg.png'}
+        src={'/omh_bcg.png'}
         headingText={'Handcrafted avatars.'}
         subHeadingText={'Buy hand made avatars!'}
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
