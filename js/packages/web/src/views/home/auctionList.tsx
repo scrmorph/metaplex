@@ -143,10 +143,12 @@ export const AuctionListView = () => {
       <Banner
         src={'/omh_bcg.png'}
         headingText={'Handcrafted avatars'}
-        subHeadingText={'Buy hand made avatars!'}
+        subHeadingText={
+          'Own you very own and special avatar and join our artists guild DAO'
+        }
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
-      />
+      ></Banner>
       <Layout>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
           <Col style={{ width: '100%', marginTop: 32 }}>
