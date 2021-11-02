@@ -142,7 +142,7 @@ export const AuctionListView = () => {
     <>
       <Banner
         src={'/omh_bcg.png'}
-        headingText={'Handcrafted avatars.'}
+        headingText={'Handcrafted avatars'}
         subHeadingText={'Buy hand made avatars!'}
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
