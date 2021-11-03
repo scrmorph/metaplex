@@ -29,7 +29,7 @@ const getDefaultLinkActions = (connected: boolean) => {
     </Link>,
     <a
       style={{ marginLeft: 20 }}
-      href={`https://dao-beta.mango.markets/dao/Off%20My%20Head`}
+      href={`https://dao-beta.mango.markets/dao/OMH`}
       target="_blank"
     >
       <img src={'/coin.png'} style={{ height: 30 }} />
