@@ -35,7 +35,7 @@ const getDefaultLinkActions = (connected: boolean) => {
  </a>,
   <a href={`https://twitter.com/nft_omh`} target='_blank'>
   <img src={'/twitter.png'} style={{ height: 30 }} />
-</a>,
+</a>
   ];
 };
 
