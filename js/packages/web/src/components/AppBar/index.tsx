@@ -27,15 +27,18 @@ const getDefaultLinkActions = (connected: boolean) => {
     <Link to={`/artists`} key={'artists'}>
       <Button className="app-btn">Creators</Button>
     </Link>,
-   <a href={`https://dao-beta.mango.markets/realms/OMH`} target='_blank'>
-     <img src={'/dao.png'} style={{ height: 30 }} />
-   </a>,
-   <a href={`https://discord.com/invite/Yb6KCffuX6`} target='_blank'>
-   <img src={'/discord.png'} style={{ height: 30 }} />
- </a>,
-  <a href={`https://twitter.com/nft_omh`} target='_blank'>
-  <img src={'/twitter.png'} style={{ height: 30 }} />
-</a>
+    <a
+      href={`https://dao-beta.mango.markets/dao/Off%20My%20Head`}
+      target="_blank"
+    >
+      <img src={'/coin.png'} style={{ height: 30 }} />
+    </a>,
+    <a href={`https://discord.com/invite/Yb6KCffuX6`} target="_blank">
+      <img src={'/discord.png'} style={{ height: 30 }} />
+    </a>,
+    <a href={`https://twitter.com/nft_omh`} target="_blank">
+      <img src={'/twitter.png'} style={{ height: 30 }} />
+    </a>,
   ];
 };
 
