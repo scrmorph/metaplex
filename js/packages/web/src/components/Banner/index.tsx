@@ -52,7 +52,7 @@ export const Banner = (props: {
             <div id={'sub-heading'}>{props.subHeadingText}</div>
             <div
               id={'sub-heading'}
-            >{`And Louis <TOKEN> is our own and very special token`}</div>
+            >{`Meet Louis <TOKEN> our own and very special token`}</div>
             {props.actionComponent}
           </div>
           {props.children}

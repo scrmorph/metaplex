@@ -144,7 +144,7 @@ export const AuctionListView = () => {
         src={'/omh_bcg.png'}
         headingText={'Handcrafted avatars'}
         subHeadingText={
-          'Own you very own and special avatar and join our artists guild DAO'
+          'Own your very own and special avatar and join our artists guild DAO'
         }
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
