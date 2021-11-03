@@ -50,9 +50,13 @@ export const Banner = (props: {
           <div id={'message-container'}>
             <div id={'main-heading'}>{props.headingText}</div>
             <div id={'sub-heading'}>{props.subHeadingText}</div>
-            <div
-              id={'sub-heading'}
-            >{`Meet Louis <TOKEN> our own and very special token`}</div>
+            <div id={'sub-heading'}>
+              <span id={'sub-heading'}>{`Meet Louis  `}
+              </span>
+              <img src={'/coin.png'} style={{ height: 30 }} />
+              <span id={'sub-heading'}>{`  our own and very special token `} 
+              </span>
+            </div>
             {props.actionComponent}
           </div>
           {props.children}
